@@ -7,7 +7,7 @@
 //     </li>
 //   );
 // }
-function CoreConcepts({ title, description, image }) {
+function CoreConcept({ title, description, image }) {
   return (
     <li>
       <img src={image} alt={title} />
@@ -17,4 +17,4 @@ function CoreConcepts({ title, description, image }) {
   );
 }
 
-export default CoreConcepts;
+export default CoreConcept;
